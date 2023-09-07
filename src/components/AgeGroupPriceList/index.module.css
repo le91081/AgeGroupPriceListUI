@@ -1,0 +1,62 @@
+.age-group-price-list-container {
+  width: 100%;
+}
+
+.age-group-price-list-wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.age-group-price-divider {
+  margin: 8px 10px;
+  border-color: #ebebeb;
+  opacity: 0.5;
+}
+
+.age-group-price-item-container {
+  width: 100%;
+}
+
+.age-group-price-item-header {
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.age-group-price-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.age-group-price-list-button {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.age-group-price-list-button.add {
+  color: #25b0a3;
+}
+
+.age-group-price-list-button.add:hover {
+  color: #25b0a2cc;
+}
+
+.age-group-price-list-button.add-disabled {
+  color: #25b0a25f;
+  cursor: not-allowed;
+}
+
+.age-group-price-list-button.remove {
+  color: #f5693d;
+}
+
+.age-group-price-list-button.remove:hover {
+  color: #f5693dcc;
+}

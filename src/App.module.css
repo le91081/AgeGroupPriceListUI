@@ -1,0 +1,11 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.age-group-price-list {
+  padding: 2rem;
+  width: 80%;
+  max-width: 1000px;
+}
